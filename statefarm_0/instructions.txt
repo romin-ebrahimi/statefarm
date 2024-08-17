@@ -1,0 +1,34 @@
+Before Starting:
+
+	• Read all the way through the instructions. 
+	• Models must be built using Python, R, or SAS.
+	• Include comments that document your thought process as you move throughout the exercise.
+	
+Step 1 - Clean and prepare your data: 
+The data in this exercise have been simulated to mimic real, dirty data. Please clean the data with whatever method(s) you believe to be best/most suitable. Success in this exercise typically involves feature engineering and avoiding data leakage. You may create new features. However, you may not add or supplement with external data. 
+
+
+Step 2 - Build your models: 
+For this exercise, you are required to build two models. The first model must be a logistic regression. The second model may be any supervised learning algorithm that is not from the GLM family.
+
+Step 3 - Generate predictions:
+Create predictions on the data in test.csv using each of your trained models.  The predictions should be the class probabilities for belonging to the positive class (labeled '1').  
+
+Be sure to output a prediction for each of the rows in the test dataset (10K rows). Save the results of each of your models in a separate CSV file.  Title the two files 'glmresults.csv' and 'nonglmresults.csv'. Each file should have a single column representing the predicted probabilities for its respective model. Please do not include a header label or index column. 
+
+Step 4 - Compare the modeling approaches
+Please write an executive summary that includes a comparison of the two modeling approaches, with emphasis on  relative strengths and weaknesses of the algorithms. To receive maximum points on the executive summary, at least one strength and one weakness for each algorithm should be described.
+
+Additionally, your executive summary should include which algorithm you think will perform better on the test set, and your support for that decision. Based on your model development process, include estimates for the test AUCs for each model. The estimates should be in a table and rounded to four decimal places. Finally, describe how you would demonstrate to a business partner that one model is better than the other without using a scoring metric.
+
+Step 5 - Submit your work: 
+Your submission should consist of (a) all the code used for exploratory data analysis, cleaning, prepping, and modeling (text or pdf preferred); (b) the two results files (.csv format - each containing 10,000 decimal probabilities); and (c) your short report comparing the pros and cons of the two modeling techniques used (text or pdf preferred). Note: The results files should only include the column of probabilities.
+
+Your work will be evaluated in the following areas:
+	• The appropriateness of the steps you took
+	• The complexity of your models
+	• The performance of each model on the test set (using AUC)
+	• The organization and readability of your code
+	• The write-up comparing the models
+
+Please do not submit the original data back to us. 

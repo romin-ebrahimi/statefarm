@@ -1,0 +1,8 @@
+fastparquet
+jupyter
+keras
+numpy
+pandas
+plotly
+seaborn
+sklearn

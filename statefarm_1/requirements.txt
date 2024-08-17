@@ -1,0 +1,12 @@
+fastparquet
+jupyter
+nbconvert
+nbconvert[webpdf]
+numpy
+pandas
+pandoc
+plotly
+seaborn
+scikit-learn
+torch
+torchmetrics
